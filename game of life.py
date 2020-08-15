@@ -1,4 +1,4 @@
-import pdb
+
 
 def submatrix(x,y):
     global l
@@ -60,7 +60,7 @@ l=[]
 
 for i in range(N):
     l.append(input().split(' '))
-pdb.set_trace()
+
 for i in range(m+1):
     for j in range(N):
         for k in range(N):
